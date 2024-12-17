@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_po">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/po" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="81dp"
+                android:layout_marginTop="25dp"
+
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/android" />
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tAndroid Studio - Интегрированная\n
+среда разработки для работы с\n платформой Android" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="145dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/netbens" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="\tNetBeans - Свободная\n
+интегрированная среда разработки\n приложений на различных языках\n
+программирования"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/eclipse" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:text="\tEclipse IDE for Java Developers\n
+ - Свободная интегрированная\n среда разработки модульных\n
+кроссплатформенных приложений"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="151dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/xd_logo" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="277dp"
+                    android:layout_height="match_parent"
+                    android:text="\tAdobe XD - Программа для\n
+ разработки интерфейсов"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="151dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/photoshop" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="277dp"
+                    android:layout_height="match_parent"
+                    android:text="\tAdobe Photoshop - это мощный\n
+набор инструментов для обработки\n цифровых изображений"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="129dp"
+                    android:layout_height="86dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/illus" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="277dp"
+                    android:layout_height="wrap_content"
+                    android:text="\tAdobe illustrator - это программное\n
+обеспечение для создания\n векторной графики, которую\n можно уменьшить до размеров\n
+экрана смартфона или увеличить\n до размеров билборда - без\n ущерба для качества и четкости\n изображения"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
